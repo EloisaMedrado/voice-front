@@ -1,0 +1,42 @@
+.Main {
+  position: relative;
+  width: 100%;
+}
+
+.InnerMain {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.border {
+  border-style: groove;
+}
+
+.About {
+  text-align: center;
+}
+
+.InnerAbout {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 20%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.esquerda {
+  float: left;
+  margin-left: 20px;
+  width: 35%;
+}
+
+.direita {
+  float: right;
+  margin-right: 20px;
+  width: 60%;
+}
