@@ -5,6 +5,8 @@ import './index.css';
 import Main from './Main';
 import About from './About';
 import Error from './Error';
+import VoiceRecorder from './VoiceRecorder';
+import RecordRTC from './RecordRTC';
 import * as serviceWorker from './serviceWorker';
 
 function Routes() {
@@ -13,6 +15,8 @@ function Routes() {
         <div>
           <Switch>
              <Route exact path="/" component = {Main} />
+             <Route exact path="/voice" component = {VoiceRecorder} />
+             <Route exact path="/rtc" component = {RecordRTC} />
              <Route exact path="/about" component={About} />
              <Route exact path="/error" component={Error} />
           </Switch>
@@ -25,8 +29,3 @@ ReactDOM.render(
   Routes(),
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
