@@ -1,6 +1,14 @@
 .Main {
   position: relative;
   width: 100%;
+  background-position-x: center;
+}
+
+.Home {
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  background-position-x: center;
 }
 
 .InnerMain {
@@ -29,6 +37,22 @@
   color: #61dafb;
 }
 
+.conteudo {
+  background-color: white;
+  margin: 15px;
+}
+
+.cadastro {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.login {
+  margin-right: 32%;
+  margin-left: 32%;
+  border-radius: 20px;
+}
+
 .esquerda {
   float: left;
   margin-left: 20px;
@@ -39,4 +63,9 @@
   float: right;
   margin-right: 20px;
   width: 60%;
+}
+
+.nav-link {
+  padding-right: 1.5rem;
+  padding-left: .5rem;
 }
